@@ -30,7 +30,15 @@
 		<module>microservice-hystrix-trubine</module>
 		<module>microservice-gateway-zuul-reg-exp</module>
 		<module>microservice-gateway-zuul</module>
+		<module>microservice-config-client</module>
+		<module>microservice-config-server</module>
+		<module>microservice-config-client-authc</module>
+		<module>microservice-config-server-authc</module>
+		<module>microservice-config-client-eureka</module>
+		<module>microservice-config-server-eureka</module>
+		<module>microservice-config-client-refresh-bus</module>
 	</modules>
+
 	<dependencyManagement>
 		<dependencies>
 			<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-web</artifactId> 

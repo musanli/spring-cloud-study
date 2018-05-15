@@ -1,24 +1,18 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-
-### STS ###
-.apt_generated
+/bin
+/build
+/target
+.settings/
+/tmp
+.git
 .classpath
-.factorypath
+/test-output
 .project
-.settings
-.springBeans
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+.externalToolBuilders/
+.bpmn
+.deployables
+settings.fatjar/
+.apt_generated/
+.factorypath
 *.iml
-*.ipr
-
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+/.idea
+.springBeans
