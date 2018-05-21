@@ -10,8 +10,6 @@ import org.springframework.web.client.RestTemplate;
 
 import com.itmuch.cloud.entity.User;
 
-import ch.qos.logback.core.net.SyslogOutputStream;
-
 /**
  * http://localhost:8010/movie/1
  * 
